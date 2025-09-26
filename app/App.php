@@ -27,7 +27,7 @@ class App
         require ROOT . '/app/Autoloader.php';
         App\Autoloader::register();
 
-        require ROOT . '/core/Autoloader.php';
+        require ROOT . '/Core/Autoloader.php';
         Core\Autoloader::register();
     }
 

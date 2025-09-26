@@ -28,6 +28,7 @@ class Autoloader
             $class = str_replace('\\', '/', $class);
             require __DIR__ . '/' . $class . '.php';
         } else {
+            $class = str_replace('\\', '/', $class);
             require ROOT . '/' . $class . '.php';
         }
     }

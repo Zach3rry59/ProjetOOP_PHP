@@ -15,7 +15,7 @@ class MySqlDatabase extends Database
     private $pdo;
     private static $_instance;
 
-    public function __construct($db_name, $db_user = 'root', $db_pwd = 'toor', $db_host = 'localhost')
+    public function __construct($db_name, $db_user = 'root', $db_pwd = '', $db_host = 'localhost')
     {
         $this->db_name = $db_name;
         $this->db_user = $db_user;
