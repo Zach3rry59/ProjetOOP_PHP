@@ -7,7 +7,7 @@ Installation
 Pour installer et lancer le site sur votre ordinateur local, veuillez suivre les étapes suivantes :
 
 Clonez le dépôt Git sur votre ordinateur en utilisant la commande git clone 
-https://github.com/Draks59/ProjetOOP_PHP
+https://github.com/Zach3rry59/ProjetOOP_PHP
 Importez la base de données MySQL à partir du fichier bonfichier.sql situé dans le répertoire public/sql/
 Modifiez les informations de connexion à la base de données dans le fichier config/config.php
 Ouvrez le fichier index.php dans votre navigateur pour accéder au site
